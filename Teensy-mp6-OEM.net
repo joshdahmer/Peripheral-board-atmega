@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Josh\Desktop\Work\Peripheral-board-atmega\Teensy-mp6-OEM.sch)
-    (date "7/11/2017 6:40:53 PM")
+    (source C:/Users/Josh/Desktop/Work/Peripheral-board-atmega/Teensy-mp6-OEM.sch)
+    (date "7/12/2017 9:51:07 AM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,7 +18,7 @@
     (comp (ref U2)
       (value mp6-OEM)
       (footprint Housings_DIP:DIP-14_W7.62mm)
-      (libsource (lib mp6-oem) (part mp6-OEM))
+      (libsource (lib wheelerlab) (part mp6-OEM))
       (sheetpath (names /) (tstamps /))
       (tstamp 591DD80A))
     (comp (ref J2)
@@ -435,7 +435,7 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive))))
-    (libpart (lib mp6-oem) (part mp6-OEM)
+    (libpart (lib wheelerlab) (part mp6-OEM)
       (fields
         (field (name Reference) U)
         (field (name Value) mp6-OEM))
@@ -455,16 +455,14 @@
         (pin (num 13) (name /SHUTDOWN) (type passive))
         (pin (num 14) (name VDD) (type input)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical regul)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical atmel)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
-    (library (logical mp6-oem)
-      (uri mp6-oem.lib))
     (library (logical wheelerlab)
       (uri library\wheelerlab.lib)))
   (nets

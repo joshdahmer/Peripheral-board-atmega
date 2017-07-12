@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Teensy-mp6-OEM-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,10 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:mp6-oem
 LIBS:wheelerlab
 LIBS:Stepper-Motor-Control
-LIBS:Teensy-mp6-OEM-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -482,9 +481,9 @@ GND
 Wire Wire Line
 	2600 1275 2450 1275
 Wire Wire Line
-	2450 1275 2450 1425
+	2450 1425 2450 1275
 Wire Wire Line
-	2450 1425 2150 1425
+	2150 1425 2450 1425
 Text GLabel 2150 1425 0    60   Input ~ 0
 +3.3V
 $Comp
